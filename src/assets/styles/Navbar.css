@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #43a047;
+  padding: 22px 0;
+}
+
+header .navbar-text {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}

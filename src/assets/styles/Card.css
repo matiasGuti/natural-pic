@@ -1,0 +1,52 @@
+.card-container {
+  text-align: center;
+}
+
+.card-info-container {
+  padding: 8px;
+  min-width: 280px;
+  min-height: 280px;
+  transition: all ease-in 0.15s;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-info-container:hover {
+  box-shadow: 3px 1px 10px rgba(0, 0, 0, 1);
+}
+
+.card-info-container .icon {
+  margin-left: auto;
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+  transition: all ease-in 0.15s;
+}
+
+.card-info-container .icon:hover {
+  color: rgb(255, 162, 162);
+}
+
+.card-info-container .card-text {
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  text-shadow: 6px 3px 10px rgba(0, 0, 0, 1);
+  font-weight: 600;
+}
+
+.icon.liked {
+  color: rgb(169, 6, 6);
+}
+
+
+.fav-pics-container {
+  margin: 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
